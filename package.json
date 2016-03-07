@@ -1,8 +1,8 @@
 {
-  "name": "Boilerplate",
-  "description": "Boilerplate code for static sites using gulp.",
+  "name": "patbriggs.com",
+  "description": "Pat Briggs' personal site portfolio!",
   "version": "0.0.1",
-  "homepage": "https://github.com/pkbriggs",
+  "homepage": "https://patbriggs.com",
   "repository": "pkbriggs/static-boilerplate-gulp",
   "license": "MIT",
   "devDependencies": {
