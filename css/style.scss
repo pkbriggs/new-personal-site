@@ -399,6 +399,65 @@ a:hover {
 
 /************** CONTENT PAGES **************/
 
+.project_page {
+  height: 100%;
+}
+
+.trybtc_page {
+  .project_page_promo {
+    background-image: url("img/trybtc_header@2x.jpg");
+  }
+
+  .project_promo_name {
+    text-shadow: 0px 1px 2px #434A41;
+  }
+
+  .project_promo_sub_text {
+    text-shadow: 0px 1px 2px #494D48;
+  }
+
+  .project_highlight_number, .project_highlight_text {
+    text-shadow: 0px 1px 2px #513416;
+  }
+}
+
+.tutera_page {
+  .project_page_promo {
+    background-image: url("img/tutera_header@2x.jpg");
+  }
+
+  .project_promo_name {
+    text-shadow: 0px 1px 1px #131709;
+  }
+
+  .project_promo_sub_text {
+    text-shadow: 0px 1px 2px #232B0F;
+  }
+
+  .project_highlight_number, .project_highlight_text {
+    text-shadow: 0px 1px 1px #5D632F;
+  }
+}
+
+.notemap_page {
+  .project_page_promo {
+    background-image: url("img/notemap_header@2x.jpg");
+  }
+
+  .project_promo_name {
+    text-shadow: 0px 1px 2px #613C27;
+  }
+
+  .project_promo_sub_text {
+    text-shadow: 0px 1px 2px #3F403C;
+  }
+
+  .project_highlight_number, .project_highlight_text {
+    text-shadow: 0px 1px 1px #656969;
+  }
+}
+
+
 .project_page .container {
   padding-left: 60px;
   padding-right: 60px;
@@ -411,18 +470,6 @@ a:hover {
   max-height: 425px;
 }
 
-.trybtc_promo {
-  background-image: url("img/trybtc_header@2x.jpg");
-}
-
-.notemap_promo {
-  background-image: url("img/notemap_header@2x.jpg");
-}
-
-.tutera_promo {
-  background-image: url("img/tutera_header@2x.jpg");
-}
-
 .highlights_container {
   text-align: center;
 }
@@ -430,18 +477,6 @@ a:hover {
 .highlights_outer_container {
   background-color: rgba(255, 255, 255, 0.1);
   padding: 15px;
-}
-
-.promo_name_trybtc {
-  text-shadow: 0px 1px 2px #434A41;
-}
-
-.promo_name_notemap {
-  text-shadow: 0px 1px 2px #613C27;
-}
-
-.promo_name_tutera {
-  text-shadow: 0px 1px 1px #131709;
 }
 
 .project_promo_name {
@@ -459,18 +494,6 @@ a:hover {
 /*.project_promo_nav_link {
   color: white;
 }*/
-
-.promo_subtext_trybtc {
-  text-shadow: 0px 1px 2px #494D48;
-}
-
-.promo_subtext_notemap {
-  text-shadow: 0px 1px 2px #3F403C;
-}
-
-.promo_subtext_tutera {
-  text-shadow: 0px 1px 2px #232B0F;
-}
 
 .project_promo_sub_text {
   color: white;
@@ -498,6 +521,14 @@ a:hover {
   background-repeat: no-repeat;
   width: 100%;
   background-size: contain;
+}
+
+.trybtc_screenshot_2_text {
+  margin-top: 16%;
+}
+
+.notemap_screenshot_4_text {
+  margin-top: 13%;
 }
 
 .tutera_screenshot_1_text {
@@ -762,18 +793,6 @@ a:hover {
 
 .centered_text {
   text-align: center;
-}
-
-.project_highlight_number_notemap, .project_highlight_text_notemap {
-  text-shadow: 0px 1px 1px #656969;
-}
-
-.project_highlight_number_trybtc, .project_highlight_text_trybtc {
-  text-shadow: 0px 1px 2px #513416;
-}
-
-.project_highlight_number_tutera, .project_highlight_text_tutera {
-  text-shadow: 0px 1px 1px #5D632F;
 }
 
 .project_highlight_number {
